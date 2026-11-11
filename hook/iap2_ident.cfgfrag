@@ -1,0 +1,7 @@
+
+
+# Route guidance (CarPlay TBT -> cluster/HUD): declare the iAP2 RGI message IDs so the phone knows the
+# accessory can receive them. Driver builds these into IdentificationInformation natively (ident_info_*msgs).
+[ident]
+sendmsgs=0x5200,0x5203
+recvmsgs=0x5201,0x5202,0x5204

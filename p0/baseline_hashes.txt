@@ -1,0 +1,7 @@
+# CarPlay->HUD baseline: SHA-256 of the stock HU binaries this build was reverse-engineered against
+# (pulled read-only on 2026-11-04, firmware NBTevo_Y21432J). tools\go.ps1 refuses to install if the on-car
+# ipod-drvr-iap2.so no longer matches this (a dealer update would move the RE'd offsets). mm-ipod is matched
+# to detect a stock vs. already-wrapped unit.
+D3F7C8973FEFF37D512BA92BAF42D40CE8A2626FE38FDF17E7DA10DB320BB36F  mm-ipod
+3512652C1D88A26512F82548327090C2A4F174680A4EAF23DFCCEAEB82AAEA4C  ipod-drvr-iap2.so
+CEFF2F83234477C4856E34B938F2B213A46C00EAAC492ED6C54AB4F5577E7701  ipod-transport-bt.so

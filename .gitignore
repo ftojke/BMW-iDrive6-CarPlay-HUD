@@ -1,0 +1,16 @@
+# Car-specific captures, logs, dumps, backups, and proprietary HU binaries (contains VIN / Wi-Fi keys)
+p0/*
+!p0/baseline_hashes.txt
+re/
+tools/re_*.sh
+tools/verify_final_so.sh
+tools/qnx_build_hook.sh
+__pycache__/
+*.pyc
+
+# Host test binaries and intermediate build logs (keep build/libnbt_carplay_hud_real.so for direct install)
+build/*.exe
+build/*.log
+build/libnbt_carplay_hud.so
+
+docs/

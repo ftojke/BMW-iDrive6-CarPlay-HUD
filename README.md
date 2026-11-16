@@ -1,6 +1,6 @@
 # BMW iDrive 6 (NBT Evo) - Native Apple CarPlay HUD & Cluster Turn-by-Turn
 
-Native **Apple CarPlay** turn-by-turn navigation (**Apple Maps** and **Google Maps**) on the **Head-Up Display (HUD)** and **digital instrument cluster (KOMBI)** for BMW **NBT Evo ID6** head units.
+Native **Apple CarPlay** turn-by-turn navigation (**Apple Maps**, **Google Maps**, and **Yandex Navi**) on the **Head-Up Display (HUD)** and **digital instrument cluster (KOMBI)** for BMW **NBT Evo ID6** head units.
 
 Arrows, distance, and street names appear automatically on the HUD and cluster whenever a CarPlay route is active, and clear as soon as the route ends.
 
@@ -32,6 +32,7 @@ Licensed under the **PolyForm Noncommercial License 1.0.0** ([`LICENSE`](LICENSE
 |---|---|---|
 | **Apple Maps** | **Working** | Full turn-by-turn on HUD & cluster |
 | **Google Maps** | **Working** | Full turn-by-turn on HUD & cluster |
+| **Yandex Navi** | **Working** | Full turn-by-turn on HUD & cluster |
 | **Waze** (iOS) | **Not supported by Waze** | iOS Waze currently sends `sourceSupportsRouteGuidance = 0` over iAP2 (no maneuver data). Will work automatically if Waze enables it in a future iOS update. |
 
 ---
